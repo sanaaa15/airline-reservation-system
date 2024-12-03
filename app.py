@@ -3,8 +3,8 @@ import streamlit as st
 from amadeus import Client, ResponseError
 
 amadeus = Client(
-    client_id="gwZTRzthoJkGJIlQPB77rtY8Po2cXROo",
-    client_secret="3n2GsjM62jU7FZT1"
+    client_id="your_amadeus_client_id",
+    client_secret="your_amadeus_client_secret"
 )
 
 
